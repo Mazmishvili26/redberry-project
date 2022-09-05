@@ -1,0 +1,542 @@
+/* laptop-info-container */
+
+.laptop-info-container{
+    position: relative;
+    max-width: 1226px;
+    width: 100%;
+    height: 1571px;
+    /* background-color: red; */
+    margin: 21px auto;
+    display: flex;
+    justify-content: center;
+}
+
+
+.laptop-info-wrapper{
+    /* background-color: purple; */
+    max-width: 900px;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* upload photo styles */
+
+.upload-photo{
+    max-width: 878px;
+    width: 100%;
+    height: 423px;
+    background-color: rgb(103, 103, 120);
+    position: absolute;
+    top:68px;
+    left:50%;
+    transform: translate(-50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* upload photo styles */
+
+
+.page{
+    width: 100%;
+    height: 100%;
+    background: #F7F7F7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px dashed #4386A9;
+    border-radius: 18px;
+}
+
+
+.upload-photo input[type="file"]{
+    display: none;
+}
+
+.page img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.upload-img{
+    width: 195px;
+    height: 76px;
+    font-size: 20px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 38px;
+    /* or 190% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    /* ლურჯი/700 */
+
+    color: #4386A9;
+    cursor: pointer;
+}
+
+
+.upload-btn{
+    width: 233px;
+    height: 60px;
+    background: #62A1EB;
+    border-radius: 8px;
+    margin-top:65px;
+    cursor: pointer;
+    color:white;
+    border:none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.upload-img-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+/* laptop brand styles */
+
+.laptop-brand{
+    padding-top:533px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:63px;
+    flex-wrap: wrap;
+}
+
+.laptop-brand select{
+    -webkit-appearance: none;
+    -maz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    outline: 0;
+    box-shadow: none;
+    background-color: #EBEBEB;
+    width: 408px;
+    height: 60px;
+    border-radius: 8px;
+    border:none;
+    padding:1rem;
+    flex:1;
+    color:black;
+    cursor: pointer;
+    font-size:1em;
+}
+
+
+
+.laptop-brand input{
+    width: 407px;
+    height: 60px;
+    border: 1.8px solid #8AC0E2;
+    border-radius: 8px;
+    margin: 8px 0 8px 0;
+    padding:1rem;
+}
+
+
+.laptop-brand-dropbox{
+    position: relative;
+}
+
+.laptop-arrow{
+    position: absolute;
+    right:22.86px;
+    top:50%;
+    transform: translate(-50%, -50%);
+    width: 14.29px;
+    height: 8.23px;
+}
+
+
+
+/* line styles */
+
+.line-container{
+    padding-top:80px;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* laptop-cpu-styles */
+
+.laptop-cpu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:104px;
+    gap:24px;
+    flex-wrap: wrap;
+}
+
+.laptop-cpu-dropbox select{
+    -webkit-appearance: none;
+    -maz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    outline: 0;
+    box-shadow: none;
+    background-color: #EBEBEB;
+    width: 277px;
+    height: 60px;
+    border-radius: 8px;
+    border:none;
+    padding:1rem;
+    flex:1;
+    color:black;
+    cursor: pointer;
+    font-size:1em;
+}
+
+.laptop-cpu-dropbox{
+    position: relative;
+}
+
+.cpu-arrow{
+    position: absolute;
+    top:50%;
+    transform: translate(-50%, -50%);
+    right:22.86px;
+    width: 14.29px;
+    height:8.23px;
+}
+
+.laptop-cpu input{
+    width: 276px;
+    height: 60px;   
+    border: 1.8px solid #8AC0E2;
+    border-radius: 8px;
+    margin:8px 0 8px 0;
+    padding:1rem;
+}
+
+
+
+/* laptop-ram styles */
+
+.laptop-ram{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:1rem;
+    margin-top:70px;
+    flex-wrap: wrap;
+}
+
+
+.ram-checkbox-wrapper{
+    display: flex;
+    flex-direction: column;
+    margin-right:150px;
+    gap:111px;
+    width: 100%;
+    margin-top:23px;
+}
+
+.ram-checkbox-wrapper h2{
+    font-size: 18px;
+}
+
+.ram-wrapper{
+    display: flex;
+    align-items: center;
+    margin-top:-81px;
+    gap:63px;
+}
+
+.ram-checkbox-wrapper label{
+    margin-left:16px;
+}
+
+.ram-checkbox-wrapper input{
+    width: 20px;
+    height: 20px;
+}
+
+
+.laptop-ram-input input{
+    width: 407px;
+    height: 60px;
+    border: 1.8px solid #8AC0E2;
+    border-radius: 8px;
+    margin:8px 0 8px 0;
+    padding:1rem;
+}
+
+.ram-ssd{
+    display: flex;
+    align-items: center;
+}
+
+
+.ram-hdd{
+    display: flex;
+    align-items: center;
+}
+
+
+
+.line2-container{
+    margin-top:52px;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* laptop-buy-styles */
+
+.laptop-buy-date{
+    margin-top:50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:50px;
+}
+
+.laptop-buy-date input{
+    width: 407px;
+    height: 60px;
+    border: 1.8px solid #8AC0E2;
+    border-radius: 8px;   
+    padding:1rem;
+    margin:8px 0 8px 0;
+}
+
+
+/* laptop-health styles */
+
+.laptop-health{
+    display: flex;
+    flex-direction: column;
+    margin-left:20px;
+}
+
+
+.laptop-health-wrapper{
+    display: flex;
+    margin-top:28px;
+    gap:62px;
+    flex-wrap: wrap;
+}
+
+.laptop-health-wrapper input{
+    width: 20px;
+    height: 20px;
+}
+
+.laptop-health-wrapper label{
+    margin-left:18px;
+}
+
+.new-laptop{
+    display: flex;
+    align-items: center;
+}
+
+.old-laptop{
+    display: flex;
+    align-items: center;
+}
+
+
+/* back-btn */
+
+
+.back-btn{
+    width: 45px;
+    height: 21px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    cursor: pointer;
+}
+
+.back-btn a{
+    color: #62A1EB;
+}
+
+.back-container{
+    margin-top:97.5px;
+    padding:18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+
+.btn-cont button{
+    width: 219px;
+    height: 60px;   
+    background: #62A1EB;
+    border-radius: 8px;
+    border:none;
+    color:white;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+
+
+/* dispaly none */
+
+.tabs-container .about-laptop small{
+    display: none;
+}
+
+
+
+/* responsive styles */
+
+
+
+@media screen and (max-width:900px) {
+
+    .line-container{
+        display: none;
+    }
+
+    .line2-container{
+        display: none;
+    }
+
+    .laptop-info-container{
+        height: auto;
+        justify-content: center;
+    }
+
+    
+}
+
+
+@media screen and (max-width:400px) {
+
+    .laptop-section .prev-container{
+        left:16px;
+    }
+
+    .tabs-container .about-laptop{
+        top:-61px;
+        width: 231px;
+        height: 20px;
+        font-size: 16px;
+        left:50%;
+        transform: translate(-50%);
+    }
+
+    .tabs-container .about-laptop small{
+        color: #898989;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    
+
+
+
+    .employee-info2{
+        display: none;
+    }
+
+    .laptop-brand{
+        margin-top:41px;
+    }
+
+    .laptop-brand input{
+        width: 358px;
+        height: 60px;
+    }
+
+    .laptop-brand select {
+        width: 358px;
+        height: 60px;
+    }
+
+    .laptop-cpu{
+        margin-top:76px;
+    }
+
+    .laptop-cpu select{
+        width: 358px;
+        height: 60px;
+    }
+
+    .cpu-core{
+        margin-top:42px;
+    }
+
+    .cpu-z{
+        margin-top:22px;
+    }
+
+    .laptop-cpu input{
+        width: 358px;
+        height: 60px;
+    }
+
+    .laptop-ram{
+        margin-top:22px;
+    }
+
+    .laptop-ram-input input{
+        width: 358px;
+        height: 60px;
+    }
+
+    .ram-checkbox-wrapper{
+        width: 390px;
+        justify-content: center;
+        margin-top:70px;
+    }
+
+
+    .laptop-buy-date input{
+        width: 358px;
+        height: 60px;
+    }
+
+    .laptop-health{
+        margin-top:22px;
+    }
+
+    .btn-cont button{
+        width: 162px;
+        height: 46px;
+        font-size: 18px;
+    }
+
+    .ram-checkbox-wrapper{
+        margin-top:23px;
+    }
+
+    .laptop-buy-date{
+        margin-top:34px;
+    }
+
+    .laptop-price{
+        margin-top:-22px;
+    }
+
+    .laptop-health{
+        margin-top:22px;
+    }
+
+}

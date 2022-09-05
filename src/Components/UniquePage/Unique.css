@@ -1,0 +1,153 @@
+
+
+.unique-title{
+    text-align: center;
+    font-size: 34px;
+    line-height: 21px;
+    color: #000000;
+    margin-top:76px;
+}
+
+.unique-container{
+    max-width: 1178px;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    left:50%;
+    transform: translate(-50%);
+    top:181px;
+    padding-bottom:3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.first-section{
+    max-width: 1000px;
+    width: 100%;
+    height: 350px;
+    display: flex;
+    align-items: center;
+}
+
+.first-section img{
+    max-width: 577px;
+    width: 100%;
+    height: 342px;
+    object-fit: cover;
+}
+
+.first-section-desc{
+    margin-left:68px;
+}
+
+.first-section-desc p{
+    margin-top:35px;
+}
+
+
+.left-info{
+    width: 577px;
+    height: 100%;
+}
+
+.second-section{
+    max-width: 1000px;
+    width: 100%;
+    height: 350px;
+    display: flex;
+    margin-top:54px;
+    font-size: 22px;
+}
+
+.second-section p{
+    margin-top:25px;
+}
+
+
+.line-container4{
+    margin-top:-103px;
+}
+
+
+.third-section{
+    max-width: 1000px;
+    width: 100%;
+    display: flex;
+    margin-top:54px;
+}
+
+.third-section p{
+    margin-top:25px;
+    font-size: 22px;
+    line-height: 27px;
+    color: #2E2E2E;
+}
+
+
+
+/* responsive styles */
+
+
+@media screen and (max-width:1800px) {
+    .line-container3{
+        display: none;
+    }
+
+    .line-container4{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width:400px) {
+
+    .unique-title{
+        position: absolute;
+        top:-45px;
+        left:50%;
+        transform: translate(-50%);
+        font-size:16px;
+    }
+
+
+    .first-section img{
+        padding:1rem;
+    }
+
+    .unique-container{
+        height: auto;
+        font-size:17px;
+    }
+    
+    .first-section{
+        flex-wrap: wrap;
+        margin-top:-109px;
+        text-align: center;
+    }
+
+    .second-section{
+        flex-wrap: wrap;
+        margin-top:270px;
+        text-align: center;
+    }
+
+    .second-section .right-info{
+        width: 100%;
+        margin-top:-140px;
+    }
+
+    .third-section{
+        flex-wrap: wrap;
+        margin-top:64px;
+        text-align: center;
+    }
+
+    .third-section .right-info {
+        text-align: center;
+        width: 100%;
+    }
+}
+

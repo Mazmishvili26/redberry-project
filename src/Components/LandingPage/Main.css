@@ -1,0 +1,98 @@
+/* general styles */
+
+
+@font-face { font-family: Delicious; src: url('http://fonts.cdnfonts.com/css/helvetica-neue-9'); } 
+
+a{
+    text-decoration: none;
+}
+
+.main-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+/* photo container styles */
+
+.photo-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo{
+    width: 112px;
+    height: 18px;
+    object-fit: cover;
+    margin-top:79px;
+}
+
+.welcome-photo{
+    width: 781px;
+    height: 482px;
+    margin-top:85px;
+    object-fit: cover;
+}
+
+
+.resp-photo{
+    display: none;
+}
+
+
+
+/* btn container styles */
+
+.btn-container{
+    margin-top:69px;
+}
+
+.btn-container button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    padding: 18px 60px;
+    background: #62A1EB;
+    border-radius: 8px;
+    border:none;
+    color:white;
+    width: 387px;
+    height: 60px;
+    margin-top:26px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    font-family: 'Helvetica Neue';
+}
+
+
+
+/* responsive */
+
+
+
+@media screen and (max-width:400px) {
+    .welcome-photo{
+        display: none;
+    }
+
+    .resp-photo{
+        display: block;
+        margin-top:117px;
+        width: 268.58px;
+        height: 349px;
+        object-fit: cover;
+    }
+
+    .btn-container button{
+        width: 358px;
+        margin-top:16px;
+    }
+}
